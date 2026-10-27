@@ -1,0 +1,27 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Sensitive environment configuration
+.env
+!.env.example
+
+# Logs (keep directory structure with .gitkeep)
+*.log
+logs/*.log
+rose_water_scraper/logs/*.log
+!**/logs/.gitkeep
+
+# System and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
